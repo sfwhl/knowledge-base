@@ -17,7 +17,7 @@ const tabLabels = {
 // 获取所有标签
 const allTags = computed(() => {
   const tags = new Set()
-  posts.value.forEach(post => {
+  posts.forEach(post => {
     post.tags?.forEach(tag => tags.add(tag))
   })
   return Array.from(tags)
@@ -25,7 +25,7 @@ const allTags = computed(() => {
 
 // 过滤文章
 const filteredPosts = computed(() => {
-  let result = posts.value
+  let result = posts
   
   // 按 TAB 过滤
   if (activeTab.value !== 'all') {

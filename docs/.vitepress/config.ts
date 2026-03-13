@@ -86,7 +86,7 @@ export default defineConfig({
     // 页脚
     footer: {
       message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2026-present 王会龙'
+      copyright: 'Copyright © 2026-present'
     }
   },
   

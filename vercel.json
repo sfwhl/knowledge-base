@@ -3,5 +3,11 @@
   "outputDirectory": "docs/.vitepress/dist",
   "devCommand": "npm run docs:dev",
   "installCommand": "npm install",
-  "framework": "vitepress"
+  "framework": "vitepress",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
 }

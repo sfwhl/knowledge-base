@@ -4,7 +4,7 @@
   "description": "个人知识库 - Function Call, MCP, Skills",
   "type": "module",
   "engines": {
-    "node": ">=18.0.0"
+    "node": "20.x"
   },
   "scripts": {
     "docs:dev": "vitepress dev docs",

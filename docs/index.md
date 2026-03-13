@@ -11,7 +11,7 @@ hero:
       link: /fc/
     - theme: alt
       text: GitHub
-      link: https://github.com/your-username/knowledge-base
+      link: https://github.com/sfwhl/knowledge-base
 features:
   - icon: ⚡
     title: Function Call
